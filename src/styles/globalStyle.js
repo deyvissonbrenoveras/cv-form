@@ -14,5 +14,18 @@ export default createGlobalStyle`
         margin: 0;
         font-family: 'Roboto', sans-serif;
         -webkit-font-smoothing: antialiased;
-    }   
+    } 
+    button {
+        background-color: rgb(103, 58, 183);
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        padding: 12px 24px;
+        border-radius: 3px;
+        cursor: pointer;  
+        display: block;      
+        margin-left: auto;
+        margin-top: 50px;
+    }  
 `;
